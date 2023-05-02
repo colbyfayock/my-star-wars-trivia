@@ -4,6 +4,8 @@ import { shuffleArray } from '@/lib/util';
 
 import ButtonAnswer from '@/components/ButtonAnswer';
 
+import triviaQuestions from '@/data/questions.json';
+
 export default function Home({ questions }) {
   const [gameStatus, setGameStatus] = useState('playing');
   const [score, setScore] = useState(0);
@@ -70,23 +72,10 @@ export default function Home({ questions }) {
   )
 }
 
-
-
 export async function getServerSideProps() {
   return {
     props: {
-      questions: [
-        {
-          question: 'What is the best?',
-          answer: '2nd',
-          wrongAnswers: ['1st', '3rd', '4th']
-        },
-        {
-          question: 'What is the worst?',
-          answer: '1st',
-          wrongAnswers: ['2nd', '3rd', '4th']
-        },
-      ].map(q => ({
+      questions: triviaQuestions.map(q => ({
         ...q,
         answers: shuffleArray([q.answer, ...q.wrongAnswers])
       }))

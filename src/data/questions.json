@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What planet is Luke Skywalker from?",
+    "answer": "Tatooine",
+    "wrongAnswers": [
+      "Hoth",
+      "Jakku",
+      "Alderaan"
+    ]
+  },
+  {
+    "question": "Who is Han Solo's best friend and copilot?",
+    "answer": "Chewbacca",
+    "wrongAnswers": [
+      "R2-D2",
+      "C-3PO",
+      "BB-8"
+    ]
+  },
+  {
+    "question": "What species is Yoda?",
+    "answer": "A Jedi Master of the species 'Unknown' ",
+    "wrongAnswers": [
+      "Ewok",
+      "Wookiee",
+      "Jawa"
+    ]
+  },
+  {
+    "question": "Who killed Jabba the Hutt?",
+    "answer": "Princess Leia",
+    "wrongAnswers": [
+      "Luke Skywalker",
+      "Han Solo",
+      "Darth Vader"
+    ]
+  },
+  {
+    "question": "Who is Darth Vader's master?",
+    "answer": "Emperor Palpatine",
+    "wrongAnswers": [
+      "Count Dooku",
+      "General Grievous",
+      "Kylo Ren"
+    ]
+  },
+  {
+    "question": "What is the name of Boba Fett's ship?",
+    "answer": "Slave I",
+    "wrongAnswers": [
+      "Ebon Hawk",
+      "Millennium Falcon",
+      "TIE Fighter"
+    ]
+  },
+  {
+    "question": "What color is Mace Windu's lightsaber?",
+    "answer": "Purple",
+    "wrongAnswers": [
+      "Blue",
+      "Green",
+      "Red"
+    ]
+  },
+  {
+    "question": "What is the name of the furry creatures on Endor?",
+    "answer": "Ewoks",
+    "wrongAnswers": [
+      "Womp rats",
+      "Tauntauns",
+      "Banthas"
+    ]
+  },
+  {
+    "question": "Which planet has the Death Star destroyed?",
+    "answer": "Alderaan",
+    "wrongAnswers": [
+      "Dagobah",
+      "Bespin",
+      "Yavin 4"
+    ]
+  },
+  {
+    "question": "Who trained Obi-Wan Kenobi?",
+    "answer": "Qui-Gon Jinn",
+    "wrongAnswers": [
+      "Darth Maul",
+      "Dooku",
+      "Palpatine"
+    ]
+  }
+]
