@@ -18,4 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background-color: black;
+  }
 }
