@@ -1,10 +1,8 @@
 # Trivia App with OpenAI SDK & ChatGPT
 
-Demo for tutorial
+Demo for tutorial [AI-Generated Trivia App with ChatGPT & the OpenAI SDK](https://www.youtube.com/watch?v=bYDLxzC16XA)
 
-📝 Article: 
-
-📺 YouTube: 
+📺 YouTube: https://www.youtube.com/watch?v=bYDLxzC16XA
 
 🚀 Demo: https://my-star-wars-trivia.vercel.app/
 
